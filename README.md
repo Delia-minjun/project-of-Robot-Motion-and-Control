@@ -1,4 +1,11 @@
-# Kinova Gen3 Lite: ROS Pick & Place and Kinematics Modeling 
+<h1 align="center"> Kinova Gen3 Lite: ROS Pick & Place and Kinematics Modeling </h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OS-Ubuntu%2020.04-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+  <img src="https://img.shields.io/badge/ROS-Noetic-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS Noetic" />
+  <img src="https://img.shields.io/badge/Hardware-Kinova%20Gen3%20Lite-blue?style=flat-square" alt="Kinova" />
+  <img src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
 
 ## Overview
 This repository contains the source code for the Lab tasks and the Final Project of the **Robot Motion and Control** course. 
