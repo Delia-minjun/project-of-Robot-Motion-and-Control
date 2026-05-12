@@ -1,0 +1,28 @@
+# === C/C++ 编译生成文件 ===
+*.o
+*.out
+*.exe
+
+# === CMake / 编译目录 ===
+build/
+bin/
+CMakeCache.txt
+
+# === ROS 工作空间特有 ===
+devel/
+install/
+log/
+.catkin_workspace
+
+# === STM32 / Keil / CubeIDE ===
+*.hex
+*.bin
+*.elf
+*.map
+Debug/
+Release/
+
+# === 编辑器与系统缓存 ===
+.vscode/
+.idea/
+.DS_Store
