@@ -24,7 +24,9 @@ These files contain the underlying mathematical models of the robot arm:
   Implements the **Forward Kinematics** based on the Denavit-Hartenberg (DH) parameters specific to the Kinova gen_3_lite 6-DOF arm.
 * **`jacobian.py`**
   Calculates the **Jacobian Matrix** for the robot. This is essential for velocity kinematics, mapping joint velocities to end-effector velocities, and singularity analysis.
-
+* **`dynamics_ros1.py`**
+  Implements the **Recursive Newton-Euler Algorithm** for the robot, calculating theoretical joint torques to perform real-time dynamics validation and performance comparison against hardware or simulation feedback.
+  
 ## Environment & Dependencies
 * **OS:** Ubuntu 20.04 (Recommended)
 * **Framework:** ROS Noetic
